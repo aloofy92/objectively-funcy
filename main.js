@@ -100,8 +100,8 @@ function marry(person,person2){
   person.married = true;
   person2.married = true;
 
-  person.spouseName = person2.firstName + " " + person2.lastName + "!";
-  person2.spouseName = person.firstName + " " + person.lastName + "!";
+  person.spouseName = person2.firstName + " " + person2.lastName ;
+  person2.spouseName = person.firstName + " " + person.lastName ;
 }
 marry(person,person2);
 console.log(person,person2);
